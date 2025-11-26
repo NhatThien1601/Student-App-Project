@@ -1,13 +1,13 @@
-🎓 Student Collector App (Ver 1.5)
-Hệ thống Thu thập & Quản lý Hồ sơ Sinh viên chạy trên nền tảng Docker.
+# 🎓 Student Collector App (Ver 1.5)
+- Hệ thống Thu thập & Quản lý Hồ sơ Sinh viên chạy trên nền tảng Docker.
 
-Phiên bản 1.5: Cập nhật giao diện (UI), tính năng Chỉnh sửa/Xóa và Hiệu ứng tương tác.
+- Phiên bản 1.5: Cập nhật giao diện (UI), tính năng Chỉnh sửa/Xóa và Hiệu ứng tương tác.
 
-Người phát triển: Nhật Thiện , Hoàng Long
+- Người phát triển: Nhật Thiện , Hoàng Long
 
-Năm thực hiện: 2025
+- Năm thực hiện: 2025
 
-🌟 Tính năng nổi bật
+## 🌟 Tính năng nổi bật
 
 1. Dành cho Sinh viên (Người dùng)
 
@@ -51,7 +51,7 @@ Năm thực hiện: 2025
 
 - 🕒 Timezone Fix: Đồng bộ thời gian hiển thị theo giờ Việt Nam (Asia/Ho_Chi_Minh).
 
-🛠️ Cài đặt và Chạy dự án
+## 🛠️ Cài đặt và Chạy dự án
 
 Yêu cầu máy tính đã cài đặt Docker Desktop.
 
@@ -78,7 +78,7 @@ docker run -d -p 6000:3000 -v $(pwd)/uploads:/app/uploads -v $(pwd)/data.json:/a
 1. Truy cập ứng dụng
 
 Mở trình duyệt web và truy cập:
-👉 http://localhost:6000 hoặc https://maxim-entomophagous-darrel.ngrok-free.dev ( Đã add-authtoken ngrok)
+👉 http://localhost:6000 
 
 2. Đăng nhập Admin
 
@@ -91,12 +91,12 @@ Mở trình duyệt web và truy cập:
 3. Public ra Internet (Optional)
 
 Nếu muốn gửi link cho bạn bè dùng thử qua điện thoại, hãy sử dụng ngrok:
-
-ngrok http 6000
-
+```bash
+.\ngrok http 6000 
+```
 
 (Copy đường link https mà ngrok cung cấp và gửi đi)
-
+"https://maxim-entomophagous-darrel.ngrok-free.dev" ( Đã add-authtoken ngrok)
 📂 Cấu trúc thư mục
 ```plaintext
 student-app/
